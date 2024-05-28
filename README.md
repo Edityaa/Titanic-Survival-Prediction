@@ -3,6 +3,12 @@
 
 This is a web application that predicts the likelihood of survival for passengers aboard the Titanic using logistic regression. Users can input various passenger details such as age, sex, passenger class, number of siblings/spouses aboard, number of parents/children aboard, fare, and port of embarkation. Based on these inputs, the application predicts whether the passenger would have survived the Titanic disaster.
 
+
+## Checkout The Website
+```
+https://titaniclogisticregression-s1amabqm.b4a.run/
+```
+
 ## Features
 
 - Allows users to input passenger details.
@@ -18,10 +24,4 @@ This is a web application that predicts the likelihood of survival for passenger
 - Logistic Regression: Machine learning algorithm used for survival prediction.
 - Used pandas and sklearn for the development of the model
 
-## Checkout The Website
-
-
-
-```
-https://titaniclogisticregression-s1amabqm.b4a.run/
 
