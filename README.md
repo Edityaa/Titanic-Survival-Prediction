@@ -1,5 +1,5 @@
 # Titanic Survival Predictor
-
+![Titanic Sinking](https://raw.githubusercontent.com/yourusername/your-repositoryname/main/path/to/titanic-sinking-image.jpg)
 This is a web application that predicts the likelihood of survival for passengers aboard the Titanic using logistic regression. Users can input various passenger details such as age, sex, passenger class, number of siblings/spouses aboard, number of parents/children aboard, fare, and port of embarkation. Based on these inputs, the application predicts whether the passenger would have survived the Titanic disaster.
 
 ## Features
