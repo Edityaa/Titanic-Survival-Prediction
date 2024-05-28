@@ -8,6 +8,30 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 </head>
 <style>
+/* Navbar styles */
+.navbar {
+    background-color: #121212;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title {
+    font-size: 24px;
+    color: #fff;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-links a:hover {
+    text-decoration: underline;
+}
+
 /* styles.css */
 body, html {
     margin: 0;
@@ -136,9 +160,26 @@ button:hover {
 
 </style>
 <body>
+ <nav class="navbar">
+        <div class="navbar-title">Aditya's Titanic Survival Predictor</div>
+        <div class="navbar-links">
+            <a href="https://www.kaggle.com/competitions/titanic" target="_blank">
+                <img src="https://logowik.com/content/uploads/images/kaggle4255.logowik.com.webp" width="45" height="40" alt="Kaggle">
+            </a>
+            <a href="https://github.com/Edityaa/Titanic-Survival-Prediction" target="_blank">
+                <img src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub">
+            </a>
+            <a href="https://www.linkedin.com/in/adityakumar2005/" target="_blank">
+                <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn">
+            </a>
+
+        </div>
+    </nav>
     <div class="background">
         <div class="container">
-            <h1>Titanic Survival Predictor</h1>
+            <h1>Kaggle ML From Disaster</h1>
+            <h3>!! This model uses Binary Logistic Regression For Classification !!</h3>
+
             <form id="survivalForm">
                 <label for="pclass">Passenger Class:</label>
                 <select id="pclass" name="pclass" required>
